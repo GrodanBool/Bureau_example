@@ -15,7 +15,7 @@ class Program
 
             if (input.ToLower() == "q" || input.ToLower() == "inget")
             {
-                Console.WriteLine("Stäänger byrån...");
+                Console.WriteLine("Stääänger byrån...");
                 Environment.Exit(0);
             }
             else if (input.ToLower() == "t" || input.ToLower() == "töm")
