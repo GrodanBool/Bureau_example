@@ -6,11 +6,11 @@ class Program
     {
         string contents = "";
 
-        System.Console.WriteLine("Öppnar byrålådan...");
+        System.Console.WriteLine("Öppnar byrålåddan...");
 
         while (true)
         {
-            System.Console.Write("Vad vill du lägga i lådan: ");
+            System.Console.Write("Vad vill du lägga i låddan: ");
             string input = Console.ReadLine();
 
             if (input.ToLower() == "q" || input.ToLower() == "inget")
@@ -20,7 +20,7 @@ class Program
             }
             else if (input.ToLower() == "t" || input.ToLower() == "töm")
             {
-                System.Console.WriteLine("Tömmer byrån på " + contents);
+                System.Console.WriteLine("Tar ut " + contents);
                 contents = "";
             }
             else
